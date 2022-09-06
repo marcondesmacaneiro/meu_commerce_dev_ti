@@ -1,0 +1,12 @@
+{
+    "name": "revisao_html",
+    "version": "1.0.0",
+    "description": "Repositório para aula Web I 2022",
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.18.9",
+        "eslint": "^7.11.0",
+        "prettier": "^2.0.5"
+    }
+}

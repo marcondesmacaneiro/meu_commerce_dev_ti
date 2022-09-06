@@ -1,0 +1,28 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "git.autofetch": true,
+    "liveshare.connectionMode": "relay",
+    "window.zoomLevel": 1,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.autoSave": "onWindowChange",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "json.format.keepLines": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "html.format.templating": true,
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[PHP]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    }
+}

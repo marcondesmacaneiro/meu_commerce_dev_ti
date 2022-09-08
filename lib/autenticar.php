@@ -11,7 +11,8 @@ if (isset($_POST['autenticar']) & !empty($_POST['login']) & !empty($_POST['senha
     if ($consulta->rowCount() > 0) {
         if ($usuario['login'] == $_POST['login']) {
             $_SESSION['autenticado'] = true;
-            header('Location: ?');
+            $_SESSION['usuario'] = $usuario;
+            //header('Location: ?');
         }
     } else {
         echo 'Usuário encontrado';

@@ -5,7 +5,7 @@ if (isset($_GET['debug'])) {
     $_SESSION['debug'] = $_GET['debug'];
 }
 
-if ($_GET['pagina'] == 'logout') {
+if (isset($_GET['pagina']) && $_GET['pagina'] == 'logout') {
     session_destroy();
     session_start();
     header('Location ?');

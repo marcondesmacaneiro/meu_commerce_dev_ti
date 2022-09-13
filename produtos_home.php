@@ -3,7 +3,11 @@ $sql_categoria = 'SELECT * from categorias where id = :id';
 $categoria = $conn->prepare($sql_categoria);
 $categoria->execute(['id' => $_GET['categoria']]);
 $linha_categoria = $categoria->fetch();
-?>
+
+if (empty($linha_categoria['categoria_pai'])) {
+    include 'produtos_destaque.php';
+} else {
+     ?>
 <h3>Produtos da Categoria: <?php echo $linha_categoria['descricao']; ?> </h3>
 
 <div class="row">
@@ -26,3 +30,6 @@ $linha_categoria = $categoria->fetch();
     <?php }
     ?>
 </div>
+
+<?php
+} ?>
